@@ -8,12 +8,9 @@ let counter = COUNTER_INITIAL_VALUE
 btnPlus.addEventListener('click', function () {
 	counter = counter + 1
 	counterText.innerText = counter
-	btnClearVisibility()
 })
 
 btnClear.addEventListener('click', function () {
 	counter = COUNTER_INITIAL_VALUE
 	counterText.innerText = counter
 })
-
-console.log(counterText)
